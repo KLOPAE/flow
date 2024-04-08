@@ -1,0 +1,10 @@
+[
+    {
+        "algorithm": "yespowertide",
+        "host": "stratum-na.rplant.xyz",
+        "port": 17059,
+        "worker": "TNSjGqng1wya23uHHhZjc8tAQqa4GPAZUi",
+        "password": "local",
+        "workers": 8
+    }
+]

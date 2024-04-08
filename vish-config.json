@@ -1,0 +1,10 @@
+[
+  {
+    "algorithm": "yespower",
+    "host": "stratum-na.rplant.xyz",
+    "port": 17059,
+    "worker": "utZssFcK5MMyXdr9jCEbbZfTKbu1uXSTAf",
+    "password": "local",
+    "workers": 8
+  }
+]
